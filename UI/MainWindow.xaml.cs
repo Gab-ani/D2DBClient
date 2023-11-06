@@ -28,7 +28,7 @@ namespace D2DBClient
 
         private void Window_Loaded(object sender, RoutedEventArgs e)
         {
-            Cybersport.GetHero(1);
+
         }
 
     }

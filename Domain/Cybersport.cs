@@ -22,7 +22,6 @@ namespace D2DBClient
             _heroes = FetchAllHeroes();
             _players = FetchAllPlayers();
             _teams = FetchAllTeams();
-            System.Diagnostics.Debug.WriteLine(_teams["Bublic Squad"].Five.Name);
         }
 
         public static Player GetPlayer(string nickname)
